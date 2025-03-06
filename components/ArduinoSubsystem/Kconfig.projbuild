@@ -1,0 +1,10 @@
+menu "ArduinoSubsystem Configuration"
+
+    config ARDUINO_LOOP_HZ
+        int "Frequency for the Arduino loop to be executed"
+        range 1 1000
+        default 100
+        help
+            Define the frequency of the loop function in the Arduino subsystem to be executed.
+
+endmenu
